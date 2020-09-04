@@ -29,24 +29,60 @@ class QuizPage extends StatefulWidget {
 }
 
 class _QuizPageState extends State<QuizPage> {
+
+
   @override
   Widget build(BuildContext context) {
     return Column(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
+        Expanded(
+          child: Padding(
+            padding:EdgeInsets.all(15.0),
+              child: Center(
+                child: Text(
+                    'here is where the text goes ooooooooooooooooooooooooooo',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                      fontSize: 25.0, color: Colors.white
+                  ),
+                ),
+              ),
+          ),
+        ),
        Expanded(
-         child: Padding(
-           padding: EdgeInsets.all(10.0) ,
-             child: Center(
-                 child: Text(
-                     'the text here',
-                 textAlign: TextAlign.center,
-                 style: TextStyle(
-
-                 ),
-                 ),
-             ),
+         child: FlatButton(
+           color: Colors.blueAccent,
+           child: Padding(
+               padding: EdgeInsets.all(15.0),
+               child: Center(
+                   child: Text(
+                   'TRUE'
+                   ),
+               ),
+           ),
+           onPressed:() {
+         },
          ),
        ),
+        Expanded(
+          child: FlatButton(
+            color: Colors.red[900],
+            child: Padding(
+              padding: EdgeInsets.all(15.0),
+                child: Text('FALSE',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontSize: 25.0,
+                ),
+                ),
+            ),
+            onPressed: (){
+
+            },
+          ),
+        ),
       ],
     );
   }
