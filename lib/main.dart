@@ -51,6 +51,20 @@ class _QuizPageState extends State<QuizPage> {
               ),
           ),
         ),
+        Expanded(
+          child: Padding(
+            padding:EdgeInsets.all(15.0),
+            child: Center(
+              child: Text(
+                'here is where the text goes ooooooooooooooooooooooooooo',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                    fontSize: 25.0, color: Colors.white
+                ),
+              ),
+            ),
+          ),
+        ),
        Expanded(
          child: FlatButton(
            color: Colors.blueAccent,
