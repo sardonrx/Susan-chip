@@ -1,24 +1,20 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(Quizzer());
+void main() => runApp(ScoreKeeper());
 
-class Quizzer extends StatelessWidget {
+class ScoreKeeper extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home:Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.pink,
-          title: Text('QUIZZER APP') ,
-        ),
-        backgroundColor: Colors.black38,
+      home: Scaffold(
+        backgroundColor: Colors.grey.shade900,
         body: SafeArea(
-          child:Padding(
-            padding:EdgeInsets.symmetric(horizontal:10.0 ),
+          child: Padding(
+            padding: EdgeInsets.symmetric(horizontal: 10.0),
             child: QuizPage(),
           ),
         ),
-        ),
+      ),
     );
   }
 }
@@ -30,7 +26,8 @@ class QuizPage extends StatefulWidget {
 
 class _QuizPageState extends State<QuizPage> {
 
-
+  List<Icon> score =[
+  ];
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -38,71 +35,74 @@ class _QuizPageState extends State<QuizPage> {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
         Expanded(
+          flex: 5,
           child: Padding(
-            padding:EdgeInsets.all(15.0),
-              child: Center(
-                child: Text(
-                    'here is where the text goes ooooooooooooooooooooooooooo',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                      fontSize: 25.0, color: Colors.white
-                  ),
-                ),
-              ),
-          ),
-        ),
-        Expanded(
-          child: Padding(
-            padding:EdgeInsets.all(15.0),
+            padding: EdgeInsets.all(10.0),
             child: Center(
               child: Text(
-                'here is where the text goes ooooooooooooooooooooooooooo',
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                    fontSize: 25.0, color: Colors.white
-                ),
-              ),
-            ),
-          ),
-        ),
-       Expanded(
-         child: FlatButton(
-           color: Colors.blueAccent,
-           child: Padding(
-               padding: EdgeInsets.all(15.0),
-               child: Center(
-                   child: Text(
-                   'TRUE'
-                   ),
-               ),
-           ),
-           onPressed:() {
-         },
-         ),
-       ),
-        Expanded(
-          child: FlatButton(
-            color: Colors.red[900],
-            child: Padding(
-              padding: EdgeInsets.all(15.0),
-                child: Text('FALSE',
+                'This is where the question text will go.',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.white,
                 ),
-                ),
+              ),
             ),
-            onPressed: (){
-
-            },
           ),
+        ),
+        Expanded(
+          child: Padding(
+            padding: EdgeInsets.all(15.0),
+            child: FlatButton(
+              textColor: Colors.white,
+              color: Colors.green,
+              child: Text(
+                'True',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 20.0,
+                ),
+              ),
+              onPressed: (){
+                setState(() {
+                  score.add(Icon(
+                    Icons.check,
+                    color: Colors.green,
+                  ),
+                  );
+                });
+              },
+            ),
+          ),
+        ),
+        Expanded(
+          child: Padding(
+            padding: EdgeInsets.all(15.0),
+            child: FlatButton(
+              color: Colors.red,
+              child: Text(
+                'False',
+                style: TextStyle(
+                  fontSize: 20.0,
+                  color: Colors.white,
+                ),
+              ),
+              onPressed: () {
+                setState(() {
+                  score.add(
+                    Icon(Icons.close, color: Colors.red,
+                    ),
+                  );
+                });
+              },
+            ),
+          ),
+        ),
+        Row(
+          children:score,
         ),
       ],
     );
   }
 }
-
-
-
-
 
