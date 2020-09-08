@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import  'question.dart';
+import 'questionBank.dart';
 
-
+NewQuestion newQuestion = NewQuestion();
 void main() => runApp(ScoreKeeper());
 
 class ScoreKeeper extends StatelessWidget {
@@ -29,26 +29,7 @@ class _QuizPageState extends State<QuizPage> {
 
   List<Icon> score =[];
 
-  List<Question> questionClass= [
 
-    Question(a: 'is this app making sense ', b: false),
-    Question(a: 'do you think the owner of this app is great', b: true),
-    Question(a: 'do you love me', b: true),
-    Question(a: 'do you believe in jesus ', b: true),
-    Question(a: 'do you think i love seyi', b: false),
-    Question(a: 'is seyi cute', b: true),
-    Question(a: 'is susan cute ', b: true),
-    Question(a: 'do you know susan love seyi so much', b: true),
-    Question(a: 'are you a fool', b: false),
-    Question(a: 'im scared, are you?', b: false),
-    Question(a: 'do you think i fear the unknown', b: true),
-    Question(a: 'do you think i lack confidence', b: true),
-    Question(a: 'i cry always', b: true),
-    Question(a: 'im lazy and i procastinate alots', b: true),
-    Question(a: 'very scared of getting a new job', b: true),
-    Question(a: 'everything will be fine soon', b: true),
-
-  ];
   int  questionTracker = 0;
 
   @override
@@ -63,7 +44,7 @@ class _QuizPageState extends State<QuizPage> {
             padding: EdgeInsets.all(10.0),
             child: Center(
               child: Text(
-                questionClass[questionTracker].questionText,
+                newQuestion.questionClass[questionTracker].questionText,
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 25.0,
@@ -87,7 +68,7 @@ class _QuizPageState extends State<QuizPage> {
                 ),
               ),
               onPressed: (){
-                bool confirmAnswers = questionClass[questionTracker].questionAnswer;
+                bool confirmAnswers = newQuestion.questionClass[questionTracker].questionAnswer;
                 if(confirmAnswers == true){
                   print('seyi is an idiot');
                 }else {
@@ -113,7 +94,7 @@ class _QuizPageState extends State<QuizPage> {
                 ),
               ),
               onPressed: () {
-                   bool confirmAnswers = questionClass[questionTracker].questionAnswer;
+                   bool confirmAnswers = newQuestion.questionClass[questionTracker].questionAnswer;
                    if(confirmAnswers== false){
                      print('i love my own life like mad nothin more');
                    }else{
