@@ -1,8 +1,9 @@
 import 'question.dart';
 
 class NewQuestion {
+  int  _questionTracker = 0;
 
-  List<Question> questionClass= [
+  List<Question> _questionClass= [
     Question('Some cats are actually allergic to humans', true),
     Question('You can lead a cow down stairs but not up stairs.', false),
     Question('Approximately one quarter of human bones are in the feet.', true),
@@ -34,4 +35,18 @@ class NewQuestion {
             ' you are free to take it home to eat.',
         true),
   ];
+
+  void nextQuestion (){
+    if (_questionClass < _questionTracker.length){
+
+    }
+  }
+
+
+  String getQuestionText (int questionText){
+    return _questionClass[_questionTracker].questionText;
+  }
+   bool getQuestionAnswer (bool questionAnswer){
+    return _questionClass[_questionTracker].questionAnswer;
+   }
 }

@@ -30,8 +30,6 @@ class _QuizPageState extends State<QuizPage> {
   List<Icon> score =[];
 
 
-  int  questionTracker = 0;
-
   @override
   Widget build(BuildContext context) {
     return Column(

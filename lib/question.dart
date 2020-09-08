@@ -9,4 +9,3 @@ class Question {
 }
 }
 
-Question newQuestion = Question('text', false);
