@@ -5,6 +5,7 @@
 - 👯 I’m looking to collaborate. 
 - 😄 Pronouns: Her/She
 - ⚡ Fun fact: Facebook will pay $500 if you find a bug in their code
+
 - 📫 How to reach me **<a href="mailto:susanadesoji2@gmail.com">
   <img src="https://img.shields.io/badge/email me-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" />** <a href="http://wa.me/09060656810?text=Hi Susan!">
   <img src="https://img.shields.io/badge/whatsapp-%34B7F1.svg?&style=for-the-badge&logo=whatsapp&logoColor=white" />
