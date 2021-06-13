@@ -1,7 +1,8 @@
 <h1 align="center">Hi 👋, I'm Susan Adesoji</h1>
 <h3 align="center">A backend developer from Nigeria</h3>
 
-- 🌱pythoneer**
+- 🌱Alpha Female
+- 
 - 👯 I’m looking to collaborate. 
 
 - 💬 Ask me about **building microservices with python**
