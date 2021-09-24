@@ -1,10 +1,10 @@
 <h1 align="center">Hi 👋, I'm Susan Adesoji</h1>
-<h3 align="center">A backend developer from Nigeria</h3>
+<h3 align="center">A Software Engineer from Nigeria currently working at Huawei Technologies</h3>
 
 - 🌱Alpha Female
 - 👯 I’m looking to collaborate. 
 - 😄 Pronouns: Her/She
-- ⚡ Fun fact: Facebook will pay $500 if you find a bug in their code
+- ⚡ Fun fact: Would probably be a lecturer if i wasn't coding.
 
 - 📫 How to reach me **<a href="mailto:susanadesoji2@gmail.com">
   <img src="https://img.shields.io/badge/email me-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" />** <a href="http://wa.me/09060656810?text=Hi Susan!">
