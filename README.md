@@ -2,9 +2,10 @@
 <h3 align="center">A Software Engineer from Nigeria, Presently working at Huawei Technologies.</h3>
 
 - 🌱Alpha Female
-- 👯 I’m looking to collaborate. 
+- 👯 I’m looking to collaborate and contribute to Africa tech ecosystem. 
 - 😄 Pronouns: Her/She
 - ⚡ Fun fact: Would probably be a lecturer if i wasn't coding.
+- 😄 Learner with curiousity. 
 
 - 📫 How to reach me **<a href="mailto:susanadesoji2@gmail.com">
   <img src="https://img.shields.io/badge/email me-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" />** <a href="http://wa.me/09060656810?text=Hi Susan!">
