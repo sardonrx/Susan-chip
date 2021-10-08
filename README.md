@@ -1,8 +1,8 @@
 <h1 align="center">Hi 👋, I'm Susan Adesoji</h1>
-<h3 align="center">A Software Engineer from Nigeria, Presently working at Huawei Technologies.</h3>
+<h3 align="center">Software Engineer at Huawei Technologies.</h3>
 
 - 🌱Alpha Female
-- 👯 I’m looking to collaborate and contribute to Africa tech ecosystem. 
+- 👯 I’m looking to collaborate. 
 - 😄 Pronouns: Her/She
 - ⚡ Fun fact: Would probably be a lecturer if i wasn't coding.
 - 😄 Learner with curiousity. 
