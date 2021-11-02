@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Susan Adesoji</h1>
-<h3 align="center">Software Engineer at Huawei Technologies.</h3>
+<h3 align="center">Software Engineer </h3>
 
 - 🌱Alpha Female
 - 👯 I’m looking to collaborate. 
