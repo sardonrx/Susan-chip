@@ -7,7 +7,7 @@
 - ⚡ Fun fact: Would probably be a lecturer if i wasn't coding.
 - 😄 Learner with curiousity. 
 
-- 📫 How to reach me **<a href="mailto:susanadesoji2@gmail.com">
+- 📫 How to reach me **<a href="mailto:adesojisusan.adeola@gmail.com">
   <img src="https://img.shields.io/badge/email me-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" />** <a href="http://wa.me/09060656810?text=Hi Susan!">
   <img src="https://img.shields.io/badge/whatsapp-%34B7F1.svg?&style=for-the-badge&logo=whatsapp&logoColor=white" />
 
