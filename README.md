@@ -2,7 +2,7 @@
 <h3 align="center">Software Engineer </h3>
 
 - 🌱Alpha Female
-- 👯 I’m looking to collaborate. 
+- 👯 looking to collaborate. 
 - 😄 Pronouns: Her/She
 - ⚡ Fun fact: Would probably be a lecturer if i wasn't coding.
 - 😄 Learner with curiousity. 
