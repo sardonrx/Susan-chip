@@ -1,10 +1,9 @@
 <h1 align="center">Hi 👋, I'm Susan Adesoji</h1>
-<h3 align="center">Software Engineer </h3>
+<h3 align="center">Software Engineer-Developer Advocates </h3>
 
-- 🌱Alpha Female
-- 👯 looking to collaborate. 
-- 😄 Pronouns: Her/She
-- ⚡ Fun fact: Would probably be a lecturer if i wasn't coding.
+- 🌱Technical Writer
+- 👯 looking to write ✍️. 
+- 😄 Pronouns: Her
 - 😄 Learner with curiousity. 
 
 - 📫 How to reach me **<a href="mailto:adesojisusan.adeola@gmail.com">
