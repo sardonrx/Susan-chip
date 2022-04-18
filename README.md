@@ -1,8 +1,8 @@
 <h1 align="center">Hi 👋, I'm Susan Adesoji</h1>
 <h3 align="center">Software Engineer-Developer Advocate </h3>
 
-- 🌱Technical Writer
-- 👯 looking to write ✍️. 
+- 🌱her/she
+- 👯 looking to collaborate ✍️. 
 - 😄 Pronouns: Her
 - 😄 Learner with curiousity. 
 
