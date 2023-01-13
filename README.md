@@ -2,9 +2,9 @@
 <h3 align="center">Software Engineer </h3>
 
 - 🌱her/she
-- 👯 looking to collaborate ✍️. 
+- ✍️ Geek
 - 😄 Pronouns: Her
-- 😄 Learner with curiousity. 
+- 😄 I am alawys helpful and working on projects, don't hesitate to reach out. 
 
 - 📫 How to reach me **<a href="mailto:adesojisusan.adeola@gmail.com">
   <img src="https://img.shields.io/badge/email me-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" />** <a href="http://wa.me/09060656810?text=Hi Susan!">
@@ -16,7 +16,7 @@
 
 <h3 align="left">Connect with me</h3>
 <p align="left">
-<a href="https://twitter.com/SuzanRoyals" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="susan" height="30" width="40" /></a>
+<a href="(https://susanadesoji.medium.com/)" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/Medium.svg" alt="susan" height="30" width="40" /></a>
 <a href="https://www.linkedin.com/in/adesojisusan/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Susan" height="30" width="40" /></a>
 </p>
 <!--
