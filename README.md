@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Susan Adesoji</h1>
+<h1 align="center">Hi 👋, I'm Susan A.</h1>
 <h3 align="center">Software Engineer </h3>
 
 - 🌱her/she
